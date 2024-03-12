@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.Api\\Avito.Api.csproj": {}
+    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.Api\\Avito.Api.csproj": {
+    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.Api\\Avito.Api.csproj",
-        "projectName": "Avito.Api",
-        "projectPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.Api\\Avito.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj",
+        "projectName": "Avito.DAL",
+        "projectPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj",
         "packagesPath": "C:\\Users\\Kraiben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.Api\\obj\\",
+        "outputPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kraiben\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,21 +38,19 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.17, )"
-            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -67,9 +65,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
