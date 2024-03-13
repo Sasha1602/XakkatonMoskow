@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RvMIaScdk1YiszPhB259rkafCEpuOBVBp2xR5SvdVAo=",
+  "Source": "Avito.Api",
+  "BasePath": "_content/Avito.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

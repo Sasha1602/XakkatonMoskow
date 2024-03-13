@@ -1,0 +1,5 @@
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.DAL\obj\Debug\net7.0\Avito.DAL.csproj.AssemblyReference.cache
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.DAL\obj\Debug\net7.0\Avito.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.DAL\obj\Debug\net7.0\Avito.DAL.AssemblyInfoInputs.cache
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.DAL\obj\Debug\net7.0\Avito.DAL.AssemblyInfo.cs
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.DAL\obj\Debug\net7.0\Avito.DAL.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\bin\Debug\net7.0\Avito.Domain.deps.json
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\bin\Debug\net7.0\Avito.Domain.runtimeconfig.json
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\bin\Debug\net7.0\Avito.Domain.dll
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\bin\Debug\net7.0\Avito.Domain.pdb
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.csproj.AssemblyReference.cache
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.AssemblyInfoInputs.cache
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.AssemblyInfo.cs
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.dll
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\refint\Avito.Domain.dll
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.pdb
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\Avito.Domain.genruntimeconfig.cache
+C:\Users\Kraiben\Code\XakkatonMoskow\Avito.Api\Avito.Domain\obj\Debug\net7.0\ref\Avito.Domain.dll
