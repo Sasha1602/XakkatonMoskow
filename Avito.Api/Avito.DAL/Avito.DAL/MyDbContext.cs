@@ -1,5 +1,5 @@
 ﻿namespace Avito.DAL;
 
-public class Class1
+public class MyDbContext
 {
 }
