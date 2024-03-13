@@ -9,13 +9,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Avito.Api.Controllers
 {
-    [Route("api/[controller]")]
+    
     [ApiController]
     public class baselin_matriix_1Controller : ControllerBase
     {
         private static MyDbContext _dbContext = new MyDbContext();
 
         [HttpGet]
+        [Route("GetByParams")]
         public async Task GetByParams([FromQuery] int? microcategory_id, [FromQuery] int? location_id)
         {
             try
@@ -46,10 +47,12 @@ namespace Avito.Api.Controllers
             }
         }
         
-        /*[HttpGet]
-        public async Task GetAllMatrix()
+        [HttpGet]
+        [Route("GetPageBy50elems")]
+        public async Task GetAllMatrix(int pageNum) 
         {
-            await Response.WriteAsJsonAsync(_dbContext.baseline_matrix_1s.ToList());
-        }*/
+            var res = _dbContext.baseline_matrix_1s.ToArray();
+            await Response.WriteAsJsonAsync(res[(50 * (pageNum - 1))..(pageNum * 50 + 1)]);
+        }
     }
 }
