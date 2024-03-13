@@ -13,17 +13,17 @@ namespace Avito.Api.Controllers
     [ApiController]
     public class baselin_matriix_1Controller : ControllerBase
     {
-        static MyDbContext dbContext = new MyDbContext();
+        private static readonly MyDbContext _dbContext = new MyDbContext();
         
         [HttpGet]
         public async Task GetByLocate([FromQuery] int? microcategory_id, [FromQuery] int? location_id )
         {
             try
             {
-                if (await dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
+                if (await _dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
                         x.microcategory_id == microcategory_id && x.location_id ==location_id) != null)
                 {
-                    await Response.WriteAsJsonAsync(await dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
+                    await Response.WriteAsJsonAsync(await _dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
                         x.microcategory_id == microcategory_id && x.location_id == location_id));
                 }
                 else
@@ -34,7 +34,7 @@ namespace Avito.Api.Controllers
             }
             catch (Exception ex)
             {
-                await Response.WriteAsJsonAsync(new { message = "Fuck" });
+                await Response.WriteAsJsonAsync(new { message = "Fuck" }); // ToDo: change catch exception
             }
         }
     }

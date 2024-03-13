@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())  // ToDo: comment all about swagger on prod and use links for collecting data
 {
     app.UseSwagger();
     app.UseSwaggerUI();
