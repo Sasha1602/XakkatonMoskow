@@ -13,28 +13,36 @@ namespace Avito.Api.Controllers
     [ApiController]
     public class baselin_matriix_1Controller : ControllerBase
     {
-        private static readonly MyDbContext _dbContext = new MyDbContext();
-        
+        private static MyDbContext _dbContext = new MyDbContext();
+
         [HttpGet]
-        public async Task GetByLocate([FromQuery] int? microcategory_id, [FromQuery] int? location_id )
+        public async Task GetByParams([FromQuery] int? microcategory_id, [FromQuery] int? location_id)
         {
             try
             {
-                if (await _dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
-                        x.microcategory_id == microcategory_id && x.location_id ==location_id) != null)
+                if (await _dbContext.discount_matrix_1s.FirstOrDefaultAsync(x =>
+                        x.location_id == location_id && x.microcategory_id == microcategory_id) != null)
                 {
-                    await Response.WriteAsJsonAsync(await _dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
-                        x.microcategory_id == microcategory_id && x.location_id == location_id));
+                    var res = await _dbContext.discount_matrix_1s.FirstOrDefaultAsync(x =>
+                        x.location_id == location_id && x.microcategory_id == microcategory_id);
+                    await Response.WriteAsJsonAsync(res.price);
+                }
+                else if (await _dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
+                             x.location_id == location_id && x.microcategory_id == microcategory_id) != null)
+                {
+                    var res =  await _dbContext.baseline_matrix_1s.FirstOrDefaultAsync(x =>
+                        x.location_id == location_id && x.microcategory_id == microcategory_id);
+                    await Response.WriteAsJsonAsync(res.price);
                 }
                 else
                 {
                     Response.StatusCode = 404;
-                    await Response.WriteAsJsonAsync(new { message = "Not correct data" });
+                    await Response.WriteAsJsonAsync(new { message = "Not Found" });
                 }
             }
             catch (Exception ex)
             {
-                await Response.WriteAsJsonAsync(new { message = "Fuck" }); // ToDo: change catch exception
+                await Response.WriteAsJsonAsync(new { message = "Not found" });
             }
         }
     }
