@@ -21,7 +21,7 @@ namespace Avito.Api.Controllers
             try
             {
                 if (await _dbContext.discount_matrix_1s.FirstOrDefaultAsync(x =>
-                        x.location_id == location_id && x.microcategory_id == microcategory_id) != null)
+                        x.location_id == location_id && x.microcategory_id == microcategory_id) != null) //ToDo: create res in check and use it in middleware
                 {
                     var res = await _dbContext.discount_matrix_1s.FirstOrDefaultAsync(x =>
                         x.location_id == location_id && x.microcategory_id == microcategory_id);
@@ -37,7 +37,7 @@ namespace Avito.Api.Controllers
                 else
                 {
                     Response.StatusCode = 404;
-                    await Response.WriteAsJsonAsync(new { message = "Not Found" });
+                    await Response.WriteAsJsonAsync(new { message = "Fuck" });
                 }
             }
             catch (Exception ex)
@@ -45,5 +45,11 @@ namespace Avito.Api.Controllers
                 await Response.WriteAsJsonAsync(new { message = "Not found" });
             }
         }
+        
+        /*[HttpGet]
+        public async Task GetAllMatrix()
+        {
+            await Response.WriteAsJsonAsync(_dbContext.baseline_matrix_1s.ToList());
+        }*/
     }
 }
