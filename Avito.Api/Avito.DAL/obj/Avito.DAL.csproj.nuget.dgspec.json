@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj": {}
+    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAl\\Avito.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj": {
+    "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAl\\Avito.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAl\\Avito.DAL.csproj",
         "projectName": "Avito.DAL",
-        "projectPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj",
+        "projectPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAl\\Avito.DAL.csproj",
         "packagesPath": "C:\\Users\\Kraiben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kraiben\\AppData\\Roaming\\NuGet\\NuGet.Config"

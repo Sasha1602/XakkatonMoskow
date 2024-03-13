@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r+NOPbfTBQoDp40g8wE5VuasLReExo0XsgNlDI4PP0rpGxIl1bHU6kEtZlp5GZG4QdNbFfEKYlXr8lf2vLsxqQ==",
+  "dgSpecHash": "/VWOeobjrv9LxHJNFDjEg+N9HgAsm1SYcZVSwXi6flOzLX5bu5Xt+D+FqyY631uqIvCf1PVQzmFNcQ67DHu9Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAL\\Avito.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Kraiben\\Code\\XakkatonMoskow\\Avito.Api\\Avito.DAl\\Avito.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kraiben\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Kraiben\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
